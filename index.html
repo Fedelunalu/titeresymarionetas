@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Títeres y Marionetas Artesanales</title>
+</head>
+<body>
+    <header>
+        <h1>Títeres y Marionetas Del Invierno</h1>
+        <p>¡Descubrí el Encanto de Nuestros Títeres y Marionetas!</p>
+    </header>
+
+    <section>
+        <img src="Imágenes/Imagen0037.jpg" alt="Títeres y Marionetas" width="200cm" height="200cm"> 
+        
+        <h2>¿Qué hacemos?</h2>
+        <p>Somos apasionados por crear títeres y marionetas únicas con materiales de alta calidad y atención a los detalles.</p>
+
+        <h2>Nuestros Productos</h2>
+        <ul>
+            <li>Títeres de Mano</li>
+            <li>Marionetas de Hilo</li>
+            <li>Marionetas de Guante</li>
+            <li>Marionetas Personalizadas</li>
+        </ul>
+
+        <h2>¿Por qué Elegirnos?</h2>
+        <ol>
+            <li>Calidad Artesanal</li>
+            <li>Variedad Creativa</li>
+            <li>Compromiso con la Satisfacción</li>
+        </ol>
+
+        <h2>¿Quiénes Somos?</h2>
+        <p>Somos un equipo de entusiastas del teatro y las artes visuales dedicados a mantener viva la tradición de los títeres y las marionetas.</p>
+
+        <h2>Contáctanos</h2>
+        <form action="mailto:tucorreo@example.com" method="post" enctype="text/plain">
+            <input type="text" name="nombre" placeholder="Nombre" required><br>
+            <input type="text" name="correo" placeholder="Correo electrónico" required><br>
+            <textarea name="mensaje" placeholder="Mensaje" rows="4" required></textarea><br>
+            <input type="submit" value="Enviar mensaje">
+        </form>
+    </section>
+    <script>
+        // Mostrar el cartel de "Invasión de títeres y marionetas"
+        setTimeout(() => {
+            alert("¡Invasión de títeres y marionetas!");
+        }, 2000); // Mostrar después de 2 segundos
+
+        // Mostrar y ocultar el cartel de "¡Cuidado! ¡Títeres sueltos!"
+        setInterval(() => {
+            const warningElement = document.getElementById("warning");
+            warningElement.style.display = (warningElement.style.display === "none" || !warningElement.style.display) ? "block" : "none";
+        }, 3000); // Cambiar cada 3 segundos
+    </script>
+</body>
+</html>
